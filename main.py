@@ -1,50 +1,69 @@
 """
-Main script to create AutoCAD DXF files from separate JSON configuration files
+Combined DXF extract + create pipeline
 """
-from dwg_utils import DrawingBuilder, ConfigLoader
+
+from extractor import ExtractionBuilder
+from creator import DrawingBuilder, ConfigLoader
 
 
 def main():
-    """Main function"""
-    
-    # Separate JSON file paths (shorter names!)
-    layers_file = 'layers.json'
-    styles_file = 'styles.json'
-    lines_file = 'lines.json'
-    texts_file = 'texts.json'
-    
-    print("\n" + "="*60)
-    print("  AutoCAD DXF Generator")
-    print("="*60)
-    
-    # Load configuration
-    print("\nLoading configuration...")
-    config_loader = ConfigLoader(layers_file, styles_file, lines_file, texts_file)
-    config_loader.load()
-    
-    layers = config_loader.get_layers()
-    styles = config_loader.get_text_styles()
-    lines = config_loader.get_lines()
-    texts = config_loader.get_texts()
-    
-    print(f"  ✓ {len(layers)} layer(s) from {layers_file}")
-    print(f"  ✓ {len(styles)} text style(s) from {styles_file}")
-    print(f"  ✓ {len(lines)} line(s) from {lines_file}")
-    print(f"  ✓ {len(texts)} text(s) from {texts_file}")
-    
-    # Build drawing
-    print("\nBuilding drawing...")
-    builder = DrawingBuilder(layers_file, styles_file, lines_file, texts_file, dwg_version='R2018')
-    builder.build()
-    
-    # Save
-    output_file = 'output.dxf'
-    print(f"Saving to {output_file}...")
-    builder.save(output_file)
-    
-    print("\n" + "="*60)
-    print(f"  ✓ SUCCESS! Created {output_file}")
-    print("="*60 + "\n")
+    input_file = "input.dxf"
+    output_file = "output.dxf"
+
+    try:
+        # =========================
+        # EXTRACT
+        # =========================
+        print("Loading input.dxf...")
+        builder = ExtractionBuilder(input_file)
+        builder.load()
+
+        print("Extracting dxf...\n")
+        data = builder.extract()
+        builder.save()
+
+        layer_count = len(data["layers"])
+        style_count = len(data["styles"])
+        line_count = len(data["lines"])
+        text_count = len(data["texts"])
+
+        print("✓ SUCCESS! Extraction complete\n")
+
+        print("Extracted entities:")
+        print(f"  {layer_count} layer(s)")
+        print(f"  {style_count} style(s)")
+        print(f"  {line_count} line(s)")
+        print(f"  {text_count} text(s)\n")
+
+        # =========================
+        # CREATE
+        # =========================
+        print("Creating dxf...\n")
+
+        config_loader = ConfigLoader(
+            "layers.json",
+            "styles.json",
+            "lines.json",
+            "texts.json"
+        )
+        config_loader.load()
+
+        drawing_builder = DrawingBuilder(
+            "layers.json",
+            "styles.json",
+            "lines.json",
+            "texts.json",
+            dwg_version="R2018"
+        )
+        drawing_builder.build()
+        drawing_builder.save(output_file)
+
+        print(f"✓ SUCCESS! Created {output_file}\n")
+
+    except FileNotFoundError:
+        print(f"✗ ERROR: File '{input_file}' not found")
+    except Exception as e:
+        print(f"✗ ERROR: {e}")
 
 
 if __name__ == "__main__":
