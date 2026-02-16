@@ -1,0 +1,86 @@
+[
+  {
+    "name": "TC",
+    "color": 4,
+    "plottable": 1,
+    "linetype": "Continuous",
+    "lineweight": -1,
+    "transparency": 0,
+    "description": "",
+    "locked": false,
+    "frozen": false,
+    "off": false
+  },
+  {
+    "name": "2Y",
+    "color": 2,
+    "plottable": 1,
+    "linetype": "Continuous",
+    "lineweight": -1,
+    "transparency": 0,
+    "description": "",
+    "locked": false,
+    "frozen": false,
+    "off": false
+  },
+  {
+    "name": "3G",
+    "color": 3,
+    "plottable": 1,
+    "linetype": "Continuous",
+    "lineweight": -1,
+    "transparency": 0,
+    "description": "",
+    "locked": false,
+    "frozen": false,
+    "off": false
+  },
+  {
+    "name": "6M",
+    "color": 6,
+    "plottable": 1,
+    "linetype": "Continuous",
+    "lineweight": -1,
+    "transparency": 0,
+    "description": "",
+    "locked": false,
+    "frozen": false,
+    "off": false
+  },
+  {
+    "name": "TM",
+    "color": 6,
+    "plottable": 1,
+    "linetype": "Continuous",
+    "lineweight": -1,
+    "transparency": 0,
+    "description": "",
+    "locked": false,
+    "frozen": false,
+    "off": false
+  },
+  {
+    "name": "SHE",
+    "color": 8,
+    "plottable": 1,
+    "linetype": "Continuous",
+    "lineweight": -1,
+    "transparency": 0,
+    "description": "",
+    "locked": false,
+    "frozen": false,
+    "off": false
+  },
+  {
+    "name": "5B",
+    "color": 5,
+    "plottable": 1,
+    "linetype": "Continuous",
+    "lineweight": -1,
+    "transparency": 0,
+    "description": "",
+    "locked": false,
+    "frozen": false,
+    "off": false
+  }
+]
