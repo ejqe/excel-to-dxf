@@ -1,7 +1,8 @@
 
 from extractor import DxfExtractor
 from creator import Dxf_Creator, ConfigLoader
-from constants import INPUT_DXF, OUTPUT_DXF, LAYERS_JSON, STYLES_JSON, LINES_JSON, TEXTS_JSON, DEFAULT_DWG_VERSION, DATA_DIR
+from constants import INPUT_DXF, INPUT_XLXS, OUTPUT_DXF, LAYERS_JSON, STYLES_JSON, LINES_JSON, TEXTS_JSON, DEFAULT_DWG_VERSION, DATA_DIR
+from modifier.text_value_replacer import TextValueReplacer
 
 
 def main():
@@ -17,7 +18,7 @@ def main():
             STYLES_JSON, 
             LINES_JSON,
             TEXTS_JSON
-            )
+        )
         dxf_extractor.load()
 
         print("Extracting dxf...\n")
@@ -38,14 +39,16 @@ def main():
         print(f"  {line_count} line(s)")
         print(f"  {text_count} text(s)\n")
 
-
         # =========================
         # MODIFY
         # =========================
+        print("Modifying text values...\n")
 
-        # WIP - Excel to JSON modification logic would go here (not implemented yet)
-
-
+        replacer = TextValueReplacer(
+            INPUT_XLXS,
+            TEXTS_JSON
+        )
+        replacer.run()
 
         # =========================
         # CREATE
@@ -57,7 +60,7 @@ def main():
             STYLES_JSON,
             LINES_JSON,
             TEXTS_JSON
-            )
+        )
         config_loader.load()
 
         dxf_creator = Dxf_Creator(
@@ -66,7 +69,7 @@ def main():
             LINES_JSON,
             TEXTS_JSON,
             DEFAULT_DWG_VERSION
-            )
+        )
         dxf_creator.build()
         dxf_creator.save(OUTPUT_DXF)
 

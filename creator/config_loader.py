@@ -12,7 +12,8 @@ class ConfigLoader:
     def __init__(self, layers_path: str = LAYERS_JSON, 
                  styles_path: str = STYLES_JSON,
                  lines_path: str = LINES_JSON,
-                 texts_path: str = TEXTS_JSON):
+                 texts_path: str = TEXTS_JSON
+                 ):
        
         self.layers_path = layers_path
         self.styles_path = styles_path

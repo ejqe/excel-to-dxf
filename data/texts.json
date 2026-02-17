@@ -264,7 +264,7 @@
     "transparency": 0
   },
   {
-    "value": " BEAM CROSS",
+    "value": "BEAM CROSS",
     "layer": "TC",
     "style": "100CL",
     "height": 250.0,
@@ -924,12 +924,12 @@
     "transparency": 0
   },
   {
-    "value": "SCHEDULE OF REINFORCED CONCRETE BEAMS",
+    "value": "SCHEDULE OF REINFORCED BEAMS",
     "layer": "TM",
     "style": "240CL",
     "height": 500.0,
     "position": [
-      4210.714285683205,
+      16889.28571425462,
       41466.66666636383,
       0.0
     ],
@@ -1161,7 +1161,7 @@
     "height": 250.0,
     "position": [
       9869.04761904762,
-      6249.999999999883,
+      6249.999999999882,
       0.0
     ],
     "width_factor": 1.0,
@@ -1170,7 +1170,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       10125.0,
-      6374.999999999883,
+      6374.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -1293,7 +1293,7 @@
     "height": 250.0,
     "position": [
       9916.666666666666,
-      9999.999999999884,
+      9999.99999999988,
       0.0
     ],
     "width_factor": 1.0,
@@ -1491,7 +1491,7 @@
     "height": 250.0,
     "position": [
       9916.666666666666,
-      5499.999999999883,
+      5499.999999999882,
       0.0
     ],
     "width_factor": 1.0,
@@ -1500,7 +1500,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       10125.0,
-      5624.999999999883,
+      5624.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -1953,7 +1953,7 @@
     "height": 250.0,
     "position": [
       9869.04761904762,
-      21249.99999999988,
+      21249.99999999989,
       0.0
     ],
     "width_factor": 1.0,
@@ -2415,7 +2415,7 @@
     "height": 250.0,
     "position": [
       9916.666666666666,
-      24999.99999999988,
+      24999.99999999989,
       0.0
     ],
     "width_factor": 1.0,
@@ -2745,7 +2745,7 @@
     "height": 250.0,
     "position": [
       9869.04761904762,
-      21249.99999999988,
+      21249.99999999989,
       0.0
     ],
     "width_factor": 1.0,
@@ -2805,7 +2805,7 @@
     "transparency": 0
   },
   {
-    "value": "G4",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -2838,7 +2838,7 @@
     "transparency": 0
   },
   {
-    "value": "I4",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -2871,7 +2871,7 @@
     "transparency": 0
   },
   {
-    "value": "I5",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -2904,7 +2904,7 @@
     "transparency": 0
   },
   {
-    "value": "J4",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -2937,7 +2937,7 @@
     "transparency": 0
   },
   {
-    "value": "J5",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -2970,7 +2970,7 @@
     "transparency": 0
   },
   {
-    "value": "G5",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -3003,7 +3003,7 @@
     "transparency": 0
   },
   {
-    "value": "O4",
+    "value": "1@50; 10@100; REST@200 to C.L",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -3036,12 +3036,12 @@
     "transparency": 0
   },
   {
-    "value": "H4",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      12467.14285714309,
+      12467.14285714308,
       38475.0,
       0.0
     ],
@@ -3069,7 +3069,7 @@
     "transparency": 0
   },
   {
-    "value": "H5",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -3102,7 +3102,7 @@
     "transparency": 0
   },
   {
-    "value": "K4",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -3135,7 +3135,7 @@
     "transparency": 0
   },
   {
-    "value": "K5",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -3168,7 +3168,7 @@
     "transparency": 0
   },
   {
-    "value": "P4",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -3201,12 +3201,12 @@
     "transparency": 0
   },
   {
-    "value": "B4",
+    "value": "B-1",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      2723.571428571545,
+      2723.571428571546,
       38100.0,
       0.0
     ],
@@ -3234,7 +3234,7 @@
     "transparency": 0
   },
   {
-    "value": "C4",
+    "value": "400",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -3267,7 +3267,7 @@
     "transparency": 0
   },
   {
-    "value": "D4",
+    "value": "600",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -3300,7 +3300,7 @@
     "transparency": 0
   },
   {
-    "value": "E4",
+    "value": "20",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -3333,7 +3333,7 @@
     "transparency": 0
   },
   {
-    "value": "N4",
+    "value": "12",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -3366,7 +3366,7 @@
     "transparency": 0
   },
   {
-    "value": "M4",
+    "value": "1",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -3399,7 +3399,7 @@
     "transparency": 0
   },
   {
-    "value": "L4",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -3432,7 +3432,7 @@
     "transparency": 0
   },
   {
-    "value": "G6",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -3465,7 +3465,7 @@
     "transparency": 0
   },
   {
-    "value": "I6",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -3498,7 +3498,7 @@
     "transparency": 0
   },
   {
-    "value": "I7",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -3531,7 +3531,7 @@
     "transparency": 0
   },
   {
-    "value": "J6",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -3564,7 +3564,7 @@
     "transparency": 0
   },
   {
-    "value": "J7",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -3597,7 +3597,7 @@
     "transparency": 0
   },
   {
-    "value": "G7",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -3630,7 +3630,7 @@
     "transparency": 0
   },
   {
-    "value": "O6",
+    "value": "1@50; 10@100; REST@200 to C.L",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -3663,7 +3663,7 @@
     "transparency": 0
   },
   {
-    "value": "H6",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -3696,7 +3696,7 @@
     "transparency": 0
   },
   {
-    "value": "H7",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -3729,7 +3729,7 @@
     "transparency": 0
   },
   {
-    "value": "K6",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -3762,7 +3762,7 @@
     "transparency": 0
   },
   {
-    "value": "K7",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -3795,7 +3795,7 @@
     "transparency": 0
   },
   {
-    "value": "P6",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -3828,12 +3828,12 @@
     "transparency": 0
   },
   {
-    "value": "B6",
+    "value": "B-2",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      2730.000000000117,
+      2730.000000000118,
       36600.0,
       0.0
     ],
@@ -3861,7 +3861,7 @@
     "transparency": 0
   },
   {
-    "value": "C6",
+    "value": "400",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -3894,7 +3894,7 @@
     "transparency": 0
   },
   {
-    "value": "D6",
+    "value": "600",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -3927,7 +3927,7 @@
     "transparency": 0
   },
   {
-    "value": "E6",
+    "value": "20",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -3960,7 +3960,7 @@
     "transparency": 0
   },
   {
-    "value": "N6",
+    "value": "12",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -3993,7 +3993,7 @@
     "transparency": 0
   },
   {
-    "value": "M6",
+    "value": "1",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4026,7 +4026,7 @@
     "transparency": 0
   },
   {
-    "value": "L6",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4059,7 +4059,7 @@
     "transparency": 0
   },
   {
-    "value": "G8",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4092,7 +4092,7 @@
     "transparency": 0
   },
   {
-    "value": "I8",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4125,7 +4125,7 @@
     "transparency": 0
   },
   {
-    "value": "I9",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4158,7 +4158,7 @@
     "transparency": 0
   },
   {
-    "value": "J8",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4191,7 +4191,7 @@
     "transparency": 0
   },
   {
-    "value": "J9",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4224,7 +4224,7 @@
     "transparency": 0
   },
   {
-    "value": "G9",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4257,7 +4257,7 @@
     "transparency": 0
   },
   {
-    "value": "O8",
+    "value": "1@50; 10@100; REST@200 to C.L",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4290,7 +4290,7 @@
     "transparency": 0
   },
   {
-    "value": "H8",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4323,7 +4323,7 @@
     "transparency": 0
   },
   {
-    "value": "H9",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4356,7 +4356,7 @@
     "transparency": 0
   },
   {
-    "value": "K8",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4389,7 +4389,7 @@
     "transparency": 0
   },
   {
-    "value": "K9",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4422,7 +4422,7 @@
     "transparency": 0
   },
   {
-    "value": "P8",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4455,12 +4455,12 @@
     "transparency": 0
   },
   {
-    "value": "B8",
+    "value": "B-3",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      2730.000000000117,
+      2730.000000000118,
       35100.0,
       0.0
     ],
@@ -4488,7 +4488,7 @@
     "transparency": 0
   },
   {
-    "value": "C8",
+    "value": "400",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4521,7 +4521,7 @@
     "transparency": 0
   },
   {
-    "value": "D8",
+    "value": "600",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4554,7 +4554,7 @@
     "transparency": 0
   },
   {
-    "value": "E8",
+    "value": "20",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4587,7 +4587,7 @@
     "transparency": 0
   },
   {
-    "value": "N8",
+    "value": "12",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4620,7 +4620,7 @@
     "transparency": 0
   },
   {
-    "value": "M8",
+    "value": "1",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4653,7 +4653,7 @@
     "transparency": 0
   },
   {
-    "value": "L8",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4686,7 +4686,7 @@
     "transparency": 0
   },
   {
-    "value": "G10",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4719,7 +4719,7 @@
     "transparency": 0
   },
   {
-    "value": "I10",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4752,7 +4752,7 @@
     "transparency": 0
   },
   {
-    "value": "I11",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4785,7 +4785,7 @@
     "transparency": 0
   },
   {
-    "value": "J10",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4818,7 +4818,7 @@
     "transparency": 0
   },
   {
-    "value": "J11",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4851,7 +4851,7 @@
     "transparency": 0
   },
   {
-    "value": "G11",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4884,7 +4884,7 @@
     "transparency": 0
   },
   {
-    "value": "O10",
+    "value": "1@50; 10@100; REST@200 to C.L",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4917,7 +4917,7 @@
     "transparency": 0
   },
   {
-    "value": "H10",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4950,7 +4950,7 @@
     "transparency": 0
   },
   {
-    "value": "H11",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -4983,7 +4983,7 @@
     "transparency": 0
   },
   {
-    "value": "K10",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -5016,7 +5016,7 @@
     "transparency": 0
   },
   {
-    "value": "K11",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -5049,12 +5049,12 @@
     "transparency": 0
   },
   {
-    "value": "P10",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      33026.42857139749,
+      33026.4285713975,
       33600.0,
       0.0
     ],
@@ -5082,12 +5082,12 @@
     "transparency": 0
   },
   {
-    "value": "B10",
+    "value": "B-4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      2601.428571428688,
+      2601.428571428689,
       33600.0,
       0.0
     ],
@@ -5115,7 +5115,7 @@
     "transparency": 0
   },
   {
-    "value": "C10",
+    "value": "400",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -5148,7 +5148,7 @@
     "transparency": 0
   },
   {
-    "value": "D10",
+    "value": "600",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -5181,7 +5181,7 @@
     "transparency": 0
   },
   {
-    "value": "E10",
+    "value": "20",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -5214,7 +5214,7 @@
     "transparency": 0
   },
   {
-    "value": "N10",
+    "value": "12",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -5247,7 +5247,7 @@
     "transparency": 0
   },
   {
-    "value": "M10",
+    "value": "1",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -5280,7 +5280,7 @@
     "transparency": 0
   },
   {
-    "value": "L10",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -5313,7 +5313,7 @@
     "transparency": 0
   },
   {
-    "value": "G12",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -5346,7 +5346,7 @@
     "transparency": 0
   },
   {
-    "value": "I12",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -5379,7 +5379,7 @@
     "transparency": 0
   },
   {
-    "value": "I13",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -5412,7 +5412,7 @@
     "transparency": 0
   },
   {
-    "value": "J12",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -5445,7 +5445,7 @@
     "transparency": 0
   },
   {
-    "value": "J13",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -5478,7 +5478,7 @@
     "transparency": 0
   },
   {
-    "value": "G13",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -5511,7 +5511,7 @@
     "transparency": 0
   },
   {
-    "value": "O12",
+    "value": "1@50; 10@100; REST@200 to C.L",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -5544,7 +5544,7 @@
     "transparency": 0
   },
   {
-    "value": "H12",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -5577,7 +5577,7 @@
     "transparency": 0
   },
   {
-    "value": "H13",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -5610,7 +5610,7 @@
     "transparency": 0
   },
   {
-    "value": "K12",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -5643,7 +5643,7 @@
     "transparency": 0
   },
   {
-    "value": "K13",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -5676,12 +5676,12 @@
     "transparency": 0
   },
   {
-    "value": "P12",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      33026.42857139749,
+      33026.4285713975,
       32100.0,
       0.0
     ],
@@ -5709,12 +5709,12 @@
     "transparency": 0
   },
   {
-    "value": "B12",
+    "value": "B-5",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      2601.428571428688,
+      2601.428571428689,
       32100.0,
       0.0
     ],
@@ -5742,7 +5742,7 @@
     "transparency": 0
   },
   {
-    "value": "C12",
+    "value": "400",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -5775,7 +5775,7 @@
     "transparency": 0
   },
   {
-    "value": "D12",
+    "value": "600",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -5808,7 +5808,7 @@
     "transparency": 0
   },
   {
-    "value": "E12",
+    "value": "20",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -5841,7 +5841,7 @@
     "transparency": 0
   },
   {
-    "value": "N12",
+    "value": "12",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -5874,7 +5874,7 @@
     "transparency": 0
   },
   {
-    "value": "M12",
+    "value": "1",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -5907,7 +5907,7 @@
     "transparency": 0
   },
   {
-    "value": "L12",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -5940,7 +5940,7 @@
     "transparency": 0
   },
   {
-    "value": "G14",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -5973,7 +5973,7 @@
     "transparency": 0
   },
   {
-    "value": "I14",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -6006,7 +6006,7 @@
     "transparency": 0
   },
   {
-    "value": "I15",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -6039,7 +6039,7 @@
     "transparency": 0
   },
   {
-    "value": "J14",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -6072,7 +6072,7 @@
     "transparency": 0
   },
   {
-    "value": "J15",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -6105,7 +6105,7 @@
     "transparency": 0
   },
   {
-    "value": "G15",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -6138,7 +6138,7 @@
     "transparency": 0
   },
   {
-    "value": "O14",
+    "value": "1@50; 10@100; REST@200 to C.L",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -6171,7 +6171,7 @@
     "transparency": 0
   },
   {
-    "value": "H14",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -6204,7 +6204,7 @@
     "transparency": 0
   },
   {
-    "value": "H15",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -6237,7 +6237,7 @@
     "transparency": 0
   },
   {
-    "value": "K14",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -6270,7 +6270,7 @@
     "transparency": 0
   },
   {
-    "value": "K15",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -6303,12 +6303,12 @@
     "transparency": 0
   },
   {
-    "value": "P14",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      33019.99999996892,
+      33019.99999996893,
       30599.99999999994,
       0.0
     ],
@@ -6336,12 +6336,12 @@
     "transparency": 0
   },
   {
-    "value": "B14",
+    "value": "B-6",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      2595.000000000116,
+      2595.000000000118,
       30599.99999999994,
       0.0
     ],
@@ -6369,7 +6369,7 @@
     "transparency": 0
   },
   {
-    "value": "C14",
+    "value": "400",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -6402,7 +6402,7 @@
     "transparency": 0
   },
   {
-    "value": "D14",
+    "value": "600",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -6435,7 +6435,7 @@
     "transparency": 0
   },
   {
-    "value": "E14",
+    "value": "20",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -6468,7 +6468,7 @@
     "transparency": 0
   },
   {
-    "value": "N14",
+    "value": "12",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -6501,7 +6501,7 @@
     "transparency": 0
   },
   {
-    "value": "M14",
+    "value": "1",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -6534,7 +6534,7 @@
     "transparency": 0
   },
   {
-    "value": "L14",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -6567,7 +6567,7 @@
     "transparency": 0
   },
   {
-    "value": "G16",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -6600,7 +6600,7 @@
     "transparency": 0
   },
   {
-    "value": "I16",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -6633,7 +6633,7 @@
     "transparency": 0
   },
   {
-    "value": "I17",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -6666,7 +6666,7 @@
     "transparency": 0
   },
   {
-    "value": "J16",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -6699,7 +6699,7 @@
     "transparency": 0
   },
   {
-    "value": "J17",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -6732,7 +6732,7 @@
     "transparency": 0
   },
   {
-    "value": "G17",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -6765,7 +6765,7 @@
     "transparency": 0
   },
   {
-    "value": "O16",
+    "value": "1@50; 10@100; REST@200 to C.L",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -6798,7 +6798,7 @@
     "transparency": 0
   },
   {
-    "value": "H16",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -6831,7 +6831,7 @@
     "transparency": 0
   },
   {
-    "value": "H17",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -6864,7 +6864,7 @@
     "transparency": 0
   },
   {
-    "value": "K16",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -6897,7 +6897,7 @@
     "transparency": 0
   },
   {
-    "value": "K17",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -6930,12 +6930,12 @@
     "transparency": 0
   },
   {
-    "value": "P16",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      33026.42857139749,
+      33026.4285713975,
       29100.0,
       0.0
     ],
@@ -6963,12 +6963,12 @@
     "transparency": 0
   },
   {
-    "value": "B16",
+    "value": "B-7",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      2601.428571428688,
+      2601.428571428689,
       29100.0,
       0.0
     ],
@@ -6996,7 +6996,7 @@
     "transparency": 0
   },
   {
-    "value": "C16",
+    "value": "400",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -7029,7 +7029,7 @@
     "transparency": 0
   },
   {
-    "value": "D16",
+    "value": "600",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -7062,7 +7062,7 @@
     "transparency": 0
   },
   {
-    "value": "E16",
+    "value": "20",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -7095,7 +7095,7 @@
     "transparency": 0
   },
   {
-    "value": "N16",
+    "value": "12",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -7128,7 +7128,7 @@
     "transparency": 0
   },
   {
-    "value": "M16",
+    "value": "1",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -7161,7 +7161,7 @@
     "transparency": 0
   },
   {
-    "value": "L16",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -7194,7 +7194,7 @@
     "transparency": 0
   },
   {
-    "value": "G18",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -7227,7 +7227,7 @@
     "transparency": 0
   },
   {
-    "value": "I18",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -7260,7 +7260,7 @@
     "transparency": 0
   },
   {
-    "value": "I19",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -7293,7 +7293,7 @@
     "transparency": 0
   },
   {
-    "value": "J18",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -7326,7 +7326,7 @@
     "transparency": 0
   },
   {
-    "value": "J19",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -7359,7 +7359,7 @@
     "transparency": 0
   },
   {
-    "value": "G19",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -7392,7 +7392,7 @@
     "transparency": 0
   },
   {
-    "value": "O18",
+    "value": "1@50; 10@100; REST@200 to C.L",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -7425,7 +7425,7 @@
     "transparency": 0
   },
   {
-    "value": "H18",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -7458,7 +7458,7 @@
     "transparency": 0
   },
   {
-    "value": "H19",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -7491,7 +7491,7 @@
     "transparency": 0
   },
   {
-    "value": "K18",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -7524,7 +7524,7 @@
     "transparency": 0
   },
   {
-    "value": "K19",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -7557,12 +7557,12 @@
     "transparency": 0
   },
   {
-    "value": "P18",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      33026.42857139749,
+      33026.4285713975,
       27600.0,
       0.0
     ],
@@ -7590,12 +7590,12 @@
     "transparency": 0
   },
   {
-    "value": "B18",
+    "value": "B-8",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      2601.428571428688,
+      2601.428571428689,
       27600.0,
       0.0
     ],
@@ -7623,7 +7623,7 @@
     "transparency": 0
   },
   {
-    "value": "C18",
+    "value": "400",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -7656,7 +7656,7 @@
     "transparency": 0
   },
   {
-    "value": "D18",
+    "value": "600",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -7689,7 +7689,7 @@
     "transparency": 0
   },
   {
-    "value": "E18",
+    "value": "20",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -7722,7 +7722,7 @@
     "transparency": 0
   },
   {
-    "value": "N18",
+    "value": "12",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -7755,7 +7755,7 @@
     "transparency": 0
   },
   {
-    "value": "M18",
+    "value": "1",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -7788,7 +7788,7 @@
     "transparency": 0
   },
   {
-    "value": "L18",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -7821,7 +7821,7 @@
     "transparency": 0
   },
   {
-    "value": "G20",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -7854,7 +7854,7 @@
     "transparency": 0
   },
   {
-    "value": "I20",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -7887,7 +7887,7 @@
     "transparency": 0
   },
   {
-    "value": "I21",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -7920,7 +7920,7 @@
     "transparency": 0
   },
   {
-    "value": "J20",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -7953,7 +7953,7 @@
     "transparency": 0
   },
   {
-    "value": "J21",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -7986,7 +7986,7 @@
     "transparency": 0
   },
   {
-    "value": "G21",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -8019,7 +8019,7 @@
     "transparency": 0
   },
   {
-    "value": "O20",
+    "value": "1@50; 10@100; REST@200 to C.L",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -8052,7 +8052,7 @@
     "transparency": 0
   },
   {
-    "value": "H20",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -8085,7 +8085,7 @@
     "transparency": 0
   },
   {
-    "value": "H21",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -8118,7 +8118,7 @@
     "transparency": 0
   },
   {
-    "value": "K20",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -8151,7 +8151,7 @@
     "transparency": 0
   },
   {
-    "value": "K21",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -8184,12 +8184,12 @@
     "transparency": 0
   },
   {
-    "value": "P20",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      33026.42857139749,
+      33026.4285713975,
       26100.0,
       0.0
     ],
@@ -8217,12 +8217,12 @@
     "transparency": 0
   },
   {
-    "value": "B20",
+    "value": "B-9",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      2601.428571428688,
+      2601.428571428689,
       26100.0,
       0.0
     ],
@@ -8250,7 +8250,7 @@
     "transparency": 0
   },
   {
-    "value": "C20",
+    "value": "400",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -8283,7 +8283,7 @@
     "transparency": 0
   },
   {
-    "value": "D20",
+    "value": "600",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -8316,7 +8316,7 @@
     "transparency": 0
   },
   {
-    "value": "E20",
+    "value": "20",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -8349,7 +8349,7 @@
     "transparency": 0
   },
   {
-    "value": "N20",
+    "value": "12",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -8382,7 +8382,7 @@
     "transparency": 0
   },
   {
-    "value": "M20",
+    "value": "1",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -8415,7 +8415,7 @@
     "transparency": 0
   },
   {
-    "value": "L20",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -8448,13 +8448,13 @@
     "transparency": 0
   },
   {
-    "value": "G22",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       10857.85714285737,
-      24974.99999999988,
+      24974.99999999989,
       0.0
     ],
     "width_factor": 0.9,
@@ -8481,13 +8481,13 @@
     "transparency": 0
   },
   {
-    "value": "I22",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       13935.00000000023,
-      24974.99999999988,
+      24974.99999999989,
       0.0
     ],
     "width_factor": 0.9,
@@ -8514,7 +8514,7 @@
     "transparency": 0
   },
   {
-    "value": "I23",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -8547,13 +8547,13 @@
     "transparency": 0
   },
   {
-    "value": "J22",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       15396.4285714288,
-      24974.99999999988,
+      24974.99999999989,
       0.0
     ],
     "width_factor": 0.9,
@@ -8580,7 +8580,7 @@
     "transparency": 0
   },
   {
-    "value": "J23",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -8613,7 +8613,7 @@
     "transparency": 0
   },
   {
-    "value": "G23",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -8646,7 +8646,7 @@
     "transparency": 0
   },
   {
-    "value": "O22",
+    "value": "1@50; 10@100; REST@200 to C.L",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -8679,13 +8679,13 @@
     "transparency": 0
   },
   {
-    "value": "H22",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       12345.00000000023,
-      24974.99999999988,
+      24974.99999999989,
       0.0
     ],
     "width_factor": 0.9,
@@ -8712,7 +8712,7 @@
     "transparency": 0
   },
   {
-    "value": "H23",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -8745,13 +8745,13 @@
     "transparency": 0
   },
   {
-    "value": "K22",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       16851.4285714288,
-      24974.99999999988,
+      24974.99999999989,
       0.0
     ],
     "width_factor": 0.9,
@@ -8778,7 +8778,7 @@
     "transparency": 0
   },
   {
-    "value": "K23",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -8811,12 +8811,12 @@
     "transparency": 0
   },
   {
-    "value": "P22",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      33026.42857139749,
+      33026.4285713975,
       24599.99999999988,
       0.0
     ],
@@ -8844,12 +8844,12 @@
     "transparency": 0
   },
   {
-    "value": "B22",
+    "value": "B-10",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      2601.428571428688,
+      2601.428571428689,
       24599.99999999988,
       0.0
     ],
@@ -8877,7 +8877,7 @@
     "transparency": 0
   },
   {
-    "value": "C22",
+    "value": "400",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -8910,7 +8910,7 @@
     "transparency": 0
   },
   {
-    "value": "D22",
+    "value": "600",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -8943,7 +8943,7 @@
     "transparency": 0
   },
   {
-    "value": "E22",
+    "value": "20",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -8976,7 +8976,7 @@
     "transparency": 0
   },
   {
-    "value": "N22",
+    "value": "12",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -9009,7 +9009,7 @@
     "transparency": 0
   },
   {
-    "value": "M22",
+    "value": "1",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -9042,7 +9042,7 @@
     "transparency": 0
   },
   {
-    "value": "L22",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -9075,7 +9075,7 @@
     "transparency": 0
   },
   {
-    "value": "G24",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -9108,7 +9108,7 @@
     "transparency": 0
   },
   {
-    "value": "I24",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -9141,7 +9141,7 @@
     "transparency": 0
   },
   {
-    "value": "I25",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -9174,7 +9174,7 @@
     "transparency": 0
   },
   {
-    "value": "J24",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -9207,7 +9207,7 @@
     "transparency": 0
   },
   {
-    "value": "J25",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -9240,7 +9240,7 @@
     "transparency": 0
   },
   {
-    "value": "G25",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -9273,13 +9273,13 @@
     "transparency": 0
   },
   {
-    "value": "O24",
+    "value": "1@50; 10@100; REST@200 to C.L",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       27095.00000000023,
-      23099.99999999988,
+      23099.99999999989,
       0.0
     ],
     "width_factor": 0.9,
@@ -9306,7 +9306,7 @@
     "transparency": 0
   },
   {
-    "value": "H24",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -9339,7 +9339,7 @@
     "transparency": 0
   },
   {
-    "value": "H25",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -9372,7 +9372,7 @@
     "transparency": 0
   },
   {
-    "value": "K24",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -9405,7 +9405,7 @@
     "transparency": 0
   },
   {
-    "value": "K25",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -9438,13 +9438,13 @@
     "transparency": 0
   },
   {
-    "value": "P24",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      33019.99999996892,
-      23099.99999999988,
+      33019.99999996893,
+      23099.99999999989,
       0.0
     ],
     "width_factor": 0.9,
@@ -9471,13 +9471,13 @@
     "transparency": 0
   },
   {
-    "value": "B24",
+    "value": "B-11",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      2595.000000000116,
-      23099.99999999988,
+      2595.000000000118,
+      23099.99999999989,
       0.0
     ],
     "width_factor": 0.9,
@@ -9504,13 +9504,13 @@
     "transparency": 0
   },
   {
-    "value": "C24",
+    "value": "400",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       5101.428571428805,
-      23099.99999999988,
+      23099.99999999989,
       0.0
     ],
     "width_factor": 0.9,
@@ -9537,13 +9537,13 @@
     "transparency": 0
   },
   {
-    "value": "D24",
+    "value": "600",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       7095.000000000233,
-      23099.99999999988,
+      23099.99999999989,
       0.0
     ],
     "width_factor": 0.9,
@@ -9570,13 +9570,13 @@
     "transparency": 0
   },
   {
-    "value": "E24",
+    "value": "20",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       8732.857142857376,
-      23099.99999999988,
+      23099.99999999989,
       0.0
     ],
     "width_factor": 0.9,
@@ -9603,13 +9603,13 @@
     "transparency": 0
   },
   {
-    "value": "N24",
+    "value": "12",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       21588.57142857166,
-      23099.99999999988,
+      23099.99999999989,
       0.0
     ],
     "width_factor": 0.9,
@@ -9636,13 +9636,13 @@
     "transparency": 0
   },
   {
-    "value": "M24",
+    "value": "1",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       19825.71428571452,
-      23099.99999999988,
+      23099.99999999989,
       0.0
     ],
     "width_factor": 0.9,
@@ -9669,13 +9669,13 @@
     "transparency": 0
   },
   {
-    "value": "L24",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       18370.71428571452,
-      23099.99999999988,
+      23099.99999999989,
       0.0
     ],
     "width_factor": 0.9,
@@ -9702,7 +9702,7 @@
     "transparency": 0
   },
   {
-    "value": "G26",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -9735,7 +9735,7 @@
     "transparency": 0
   },
   {
-    "value": "I26",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -9768,7 +9768,7 @@
     "transparency": 0
   },
   {
-    "value": "I27",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -9801,7 +9801,7 @@
     "transparency": 0
   },
   {
-    "value": "J26",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -9834,7 +9834,7 @@
     "transparency": 0
   },
   {
-    "value": "J27",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -9867,7 +9867,7 @@
     "transparency": 0
   },
   {
-    "value": "G27",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -9900,7 +9900,7 @@
     "transparency": 0
   },
   {
-    "value": "O26",
+    "value": "1@50; 10@100; REST@200 to C.L",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -9933,7 +9933,7 @@
     "transparency": 0
   },
   {
-    "value": "H26",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -9966,7 +9966,7 @@
     "transparency": 0
   },
   {
-    "value": "H27",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -9999,7 +9999,7 @@
     "transparency": 0
   },
   {
-    "value": "K26",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -10032,7 +10032,7 @@
     "transparency": 0
   },
   {
-    "value": "K27",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -10065,12 +10065,12 @@
     "transparency": 0
   },
   {
-    "value": "P26",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      33026.42857139749,
+      33026.4285713975,
       21599.99999999994,
       0.0
     ],
@@ -10098,12 +10098,12 @@
     "transparency": 0
   },
   {
-    "value": "B26",
+    "value": "B-12",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      2601.428571428688,
+      2601.428571428689,
       21599.99999999994,
       0.0
     ],
@@ -10131,7 +10131,7 @@
     "transparency": 0
   },
   {
-    "value": "C26",
+    "value": "400",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -10164,7 +10164,7 @@
     "transparency": 0
   },
   {
-    "value": "D26",
+    "value": "600",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -10197,7 +10197,7 @@
     "transparency": 0
   },
   {
-    "value": "E26",
+    "value": "20",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -10230,7 +10230,7 @@
     "transparency": 0
   },
   {
-    "value": "N26",
+    "value": "12",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -10263,7 +10263,7 @@
     "transparency": 0
   },
   {
-    "value": "M26",
+    "value": "1",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -10296,7 +10296,7 @@
     "transparency": 0
   },
   {
-    "value": "L26",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -10329,7 +10329,7 @@
     "transparency": 0
   },
   {
-    "value": "G28",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -10362,7 +10362,7 @@
     "transparency": 0
   },
   {
-    "value": "I28",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -10395,7 +10395,7 @@
     "transparency": 0
   },
   {
-    "value": "I29",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -10428,7 +10428,7 @@
     "transparency": 0
   },
   {
-    "value": "J28",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -10461,7 +10461,7 @@
     "transparency": 0
   },
   {
-    "value": "J29",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -10494,7 +10494,7 @@
     "transparency": 0
   },
   {
-    "value": "G29",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -10527,7 +10527,7 @@
     "transparency": 0
   },
   {
-    "value": "O28",
+    "value": "1@50; 10@100; REST@200 to C.L",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -10560,7 +10560,7 @@
     "transparency": 0
   },
   {
-    "value": "H28",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -10593,7 +10593,7 @@
     "transparency": 0
   },
   {
-    "value": "H29",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -10626,7 +10626,7 @@
     "transparency": 0
   },
   {
-    "value": "K28",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -10659,7 +10659,7 @@
     "transparency": 0
   },
   {
-    "value": "K29",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -10692,12 +10692,12 @@
     "transparency": 0
   },
   {
-    "value": "P28",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      33026.42857139749,
+      33026.4285713975,
       20099.99999999994,
       0.0
     ],
@@ -10725,12 +10725,12 @@
     "transparency": 0
   },
   {
-    "value": "B28",
+    "value": "B-13",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      2601.428571428688,
+      2601.428571428689,
       20099.99999999994,
       0.0
     ],
@@ -10758,7 +10758,7 @@
     "transparency": 0
   },
   {
-    "value": "C28",
+    "value": "400",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -10791,7 +10791,7 @@
     "transparency": 0
   },
   {
-    "value": "D28",
+    "value": "600",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -10824,7 +10824,7 @@
     "transparency": 0
   },
   {
-    "value": "E28",
+    "value": "20",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -10857,7 +10857,7 @@
     "transparency": 0
   },
   {
-    "value": "N28",
+    "value": "12",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -10890,7 +10890,7 @@
     "transparency": 0
   },
   {
-    "value": "M28",
+    "value": "1",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -10923,7 +10923,7 @@
     "transparency": 0
   },
   {
-    "value": "L28",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -10956,7 +10956,7 @@
     "transparency": 0
   },
   {
-    "value": "G30",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -10989,7 +10989,7 @@
     "transparency": 0
   },
   {
-    "value": "I30",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -11022,7 +11022,7 @@
     "transparency": 0
   },
   {
-    "value": "I31",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -11055,7 +11055,7 @@
     "transparency": 0
   },
   {
-    "value": "J30",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -11088,7 +11088,7 @@
     "transparency": 0
   },
   {
-    "value": "J31",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -11121,7 +11121,7 @@
     "transparency": 0
   },
   {
-    "value": "G31",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -11154,7 +11154,7 @@
     "transparency": 0
   },
   {
-    "value": "O30",
+    "value": "1@50; 10@100; REST@200 to C.L",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -11187,7 +11187,7 @@
     "transparency": 0
   },
   {
-    "value": "H30",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -11220,7 +11220,7 @@
     "transparency": 0
   },
   {
-    "value": "H31",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -11253,7 +11253,7 @@
     "transparency": 0
   },
   {
-    "value": "K30",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -11286,7 +11286,7 @@
     "transparency": 0
   },
   {
-    "value": "K31",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -11319,12 +11319,12 @@
     "transparency": 0
   },
   {
-    "value": "P30",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      33026.42857139749,
+      33026.4285713975,
       18599.99999999994,
       0.0
     ],
@@ -11352,12 +11352,12 @@
     "transparency": 0
   },
   {
-    "value": "B30",
+    "value": "B-14",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      2601.428571428688,
+      2601.428571428689,
       18599.99999999994,
       0.0
     ],
@@ -11385,7 +11385,7 @@
     "transparency": 0
   },
   {
-    "value": "C30",
+    "value": "400",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -11418,7 +11418,7 @@
     "transparency": 0
   },
   {
-    "value": "D30",
+    "value": "600",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -11451,7 +11451,7 @@
     "transparency": 0
   },
   {
-    "value": "E30",
+    "value": "20",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -11484,7 +11484,7 @@
     "transparency": 0
   },
   {
-    "value": "N30",
+    "value": "12",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -11517,7 +11517,7 @@
     "transparency": 0
   },
   {
-    "value": "M30",
+    "value": "1",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -11550,7 +11550,7 @@
     "transparency": 0
   },
   {
-    "value": "L30",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -11583,7 +11583,7 @@
     "transparency": 0
   },
   {
-    "value": "G32",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -11616,7 +11616,7 @@
     "transparency": 0
   },
   {
-    "value": "I32",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -11649,7 +11649,7 @@
     "transparency": 0
   },
   {
-    "value": "I33",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -11682,7 +11682,7 @@
     "transparency": 0
   },
   {
-    "value": "J32",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -11715,7 +11715,7 @@
     "transparency": 0
   },
   {
-    "value": "J33",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -11748,7 +11748,7 @@
     "transparency": 0
   },
   {
-    "value": "G33",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -11781,7 +11781,7 @@
     "transparency": 0
   },
   {
-    "value": "O32",
+    "value": "1@50; 10@100; REST@200 to C.L",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -11814,7 +11814,7 @@
     "transparency": 0
   },
   {
-    "value": "H32",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -11847,7 +11847,7 @@
     "transparency": 0
   },
   {
-    "value": "H33",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -11880,7 +11880,7 @@
     "transparency": 0
   },
   {
-    "value": "K32",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -11913,7 +11913,7 @@
     "transparency": 0
   },
   {
-    "value": "K33",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -11946,12 +11946,12 @@
     "transparency": 0
   },
   {
-    "value": "P32",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      33026.42857139749,
+      33026.4285713975,
       17099.99999999982,
       0.0
     ],
@@ -11979,12 +11979,12 @@
     "transparency": 0
   },
   {
-    "value": "B32",
+    "value": "B-15",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      2601.428571428688,
+      2601.428571428689,
       17099.99999999982,
       0.0
     ],
@@ -12012,7 +12012,7 @@
     "transparency": 0
   },
   {
-    "value": "C32",
+    "value": "400",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -12045,7 +12045,7 @@
     "transparency": 0
   },
   {
-    "value": "D32",
+    "value": "600",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -12078,7 +12078,7 @@
     "transparency": 0
   },
   {
-    "value": "E32",
+    "value": "20",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -12111,7 +12111,7 @@
     "transparency": 0
   },
   {
-    "value": "N32",
+    "value": "12",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -12144,7 +12144,7 @@
     "transparency": 0
   },
   {
-    "value": "M32",
+    "value": "1",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -12177,7 +12177,7 @@
     "transparency": 0
   },
   {
-    "value": "L32",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -12210,7 +12210,7 @@
     "transparency": 0
   },
   {
-    "value": "G34",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -12243,7 +12243,7 @@
     "transparency": 0
   },
   {
-    "value": "I34",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -12276,7 +12276,7 @@
     "transparency": 0
   },
   {
-    "value": "I35",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -12309,7 +12309,7 @@
     "transparency": 0
   },
   {
-    "value": "J34",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -12342,7 +12342,7 @@
     "transparency": 0
   },
   {
-    "value": "J35",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -12375,7 +12375,7 @@
     "transparency": 0
   },
   {
-    "value": "G35",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -12408,7 +12408,7 @@
     "transparency": 0
   },
   {
-    "value": "O34",
+    "value": "1@50; 10@100; REST@200 to C.L",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -12441,7 +12441,7 @@
     "transparency": 0
   },
   {
-    "value": "H34",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -12474,7 +12474,7 @@
     "transparency": 0
   },
   {
-    "value": "H35",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -12507,7 +12507,7 @@
     "transparency": 0
   },
   {
-    "value": "K34",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -12540,7 +12540,7 @@
     "transparency": 0
   },
   {
-    "value": "K35",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -12573,12 +12573,12 @@
     "transparency": 0
   },
   {
-    "value": "P34",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      33019.99999996892,
+      33019.99999996893,
       15599.99999999982,
       0.0
     ],
@@ -12606,12 +12606,12 @@
     "transparency": 0
   },
   {
-    "value": "B34",
+    "value": "B-16",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      2595.000000000116,
+      2595.000000000118,
       15599.99999999982,
       0.0
     ],
@@ -12639,7 +12639,7 @@
     "transparency": 0
   },
   {
-    "value": "C34",
+    "value": "400",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -12672,7 +12672,7 @@
     "transparency": 0
   },
   {
-    "value": "D34",
+    "value": "600",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -12705,7 +12705,7 @@
     "transparency": 0
   },
   {
-    "value": "E34",
+    "value": "20",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -12738,7 +12738,7 @@
     "transparency": 0
   },
   {
-    "value": "N34",
+    "value": "12",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -12771,7 +12771,7 @@
     "transparency": 0
   },
   {
-    "value": "M34",
+    "value": "1",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -12804,7 +12804,7 @@
     "transparency": 0
   },
   {
-    "value": "L34",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -12837,7 +12837,7 @@
     "transparency": 0
   },
   {
-    "value": "G36",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -12870,7 +12870,7 @@
     "transparency": 0
   },
   {
-    "value": "I36",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -12903,7 +12903,7 @@
     "transparency": 0
   },
   {
-    "value": "I37",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -12936,7 +12936,7 @@
     "transparency": 0
   },
   {
-    "value": "J36",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -12969,7 +12969,7 @@
     "transparency": 0
   },
   {
-    "value": "J37",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -13002,7 +13002,7 @@
     "transparency": 0
   },
   {
-    "value": "G37",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -13035,7 +13035,7 @@
     "transparency": 0
   },
   {
-    "value": "O36",
+    "value": "1@50; 10@100; REST@200 to C.L",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -13068,7 +13068,7 @@
     "transparency": 0
   },
   {
-    "value": "H36",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -13101,7 +13101,7 @@
     "transparency": 0
   },
   {
-    "value": "H37",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -13134,7 +13134,7 @@
     "transparency": 0
   },
   {
-    "value": "K36",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -13167,7 +13167,7 @@
     "transparency": 0
   },
   {
-    "value": "K37",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -13200,12 +13200,12 @@
     "transparency": 0
   },
   {
-    "value": "P36",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      33026.42857139749,
+      33026.4285713975,
       14099.99999999988,
       0.0
     ],
@@ -13233,12 +13233,12 @@
     "transparency": 0
   },
   {
-    "value": "B36",
+    "value": "B-17",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      2601.428571428688,
+      2601.428571428689,
       14099.99999999988,
       0.0
     ],
@@ -13266,7 +13266,7 @@
     "transparency": 0
   },
   {
-    "value": "C36",
+    "value": "400",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -13299,7 +13299,7 @@
     "transparency": 0
   },
   {
-    "value": "D36",
+    "value": "600",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -13332,7 +13332,7 @@
     "transparency": 0
   },
   {
-    "value": "E36",
+    "value": "20",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -13365,7 +13365,7 @@
     "transparency": 0
   },
   {
-    "value": "N36",
+    "value": "12",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -13398,7 +13398,7 @@
     "transparency": 0
   },
   {
-    "value": "M36",
+    "value": "1",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -13431,7 +13431,7 @@
     "transparency": 0
   },
   {
-    "value": "L36",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -13464,7 +13464,7 @@
     "transparency": 0
   },
   {
-    "value": "G38",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -13497,7 +13497,7 @@
     "transparency": 0
   },
   {
-    "value": "I38",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -13530,7 +13530,7 @@
     "transparency": 0
   },
   {
-    "value": "I39",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -13563,7 +13563,7 @@
     "transparency": 0
   },
   {
-    "value": "J38",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -13596,7 +13596,7 @@
     "transparency": 0
   },
   {
-    "value": "J39",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -13629,7 +13629,7 @@
     "transparency": 0
   },
   {
-    "value": "G39",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -13662,7 +13662,7 @@
     "transparency": 0
   },
   {
-    "value": "O38",
+    "value": "1@50; 10@100; REST@200 to C.L",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -13695,7 +13695,7 @@
     "transparency": 0
   },
   {
-    "value": "H38",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -13728,7 +13728,7 @@
     "transparency": 0
   },
   {
-    "value": "H39",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -13761,7 +13761,7 @@
     "transparency": 0
   },
   {
-    "value": "K38",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -13794,7 +13794,7 @@
     "transparency": 0
   },
   {
-    "value": "K39",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -13827,12 +13827,12 @@
     "transparency": 0
   },
   {
-    "value": "P38",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      33026.42857139749,
+      33026.4285713975,
       12599.99999999988,
       0.0
     ],
@@ -13860,12 +13860,12 @@
     "transparency": 0
   },
   {
-    "value": "B38",
+    "value": "B-18",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      2601.428571428688,
+      2601.428571428689,
       12599.99999999988,
       0.0
     ],
@@ -13893,7 +13893,7 @@
     "transparency": 0
   },
   {
-    "value": "C38",
+    "value": "400",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -13926,7 +13926,7 @@
     "transparency": 0
   },
   {
-    "value": "D38",
+    "value": "600",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -13959,7 +13959,7 @@
     "transparency": 0
   },
   {
-    "value": "E38",
+    "value": "20",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -13992,7 +13992,7 @@
     "transparency": 0
   },
   {
-    "value": "N38",
+    "value": "12",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -14025,7 +14025,7 @@
     "transparency": 0
   },
   {
-    "value": "M38",
+    "value": "1",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -14058,7 +14058,7 @@
     "transparency": 0
   },
   {
-    "value": "L38",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -14091,7 +14091,7 @@
     "transparency": 0
   },
   {
-    "value": "G40",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -14124,7 +14124,7 @@
     "transparency": 0
   },
   {
-    "value": "I40",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -14157,7 +14157,7 @@
     "transparency": 0
   },
   {
-    "value": "I41",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -14190,7 +14190,7 @@
     "transparency": 0
   },
   {
-    "value": "J40",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -14223,7 +14223,7 @@
     "transparency": 0
   },
   {
-    "value": "J41",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -14256,7 +14256,7 @@
     "transparency": 0
   },
   {
-    "value": "G41",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -14289,7 +14289,7 @@
     "transparency": 0
   },
   {
-    "value": "O40",
+    "value": "1@50; 10@100; REST@200 to C.L",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -14322,7 +14322,7 @@
     "transparency": 0
   },
   {
-    "value": "H40",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -14355,7 +14355,7 @@
     "transparency": 0
   },
   {
-    "value": "H41",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -14388,7 +14388,7 @@
     "transparency": 0
   },
   {
-    "value": "K40",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -14421,7 +14421,7 @@
     "transparency": 0
   },
   {
-    "value": "K41",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -14454,12 +14454,12 @@
     "transparency": 0
   },
   {
-    "value": "P40",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      33026.42857139749,
+      33026.4285713975,
       11099.99999999988,
       0.0
     ],
@@ -14487,12 +14487,12 @@
     "transparency": 0
   },
   {
-    "value": "B40",
+    "value": "B-19",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      2601.428571428688,
+      2601.428571428689,
       11099.99999999988,
       0.0
     ],
@@ -14520,7 +14520,7 @@
     "transparency": 0
   },
   {
-    "value": "C40",
+    "value": "400",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -14553,7 +14553,7 @@
     "transparency": 0
   },
   {
-    "value": "D40",
+    "value": "600",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -14586,7 +14586,7 @@
     "transparency": 0
   },
   {
-    "value": "E40",
+    "value": "20",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -14619,7 +14619,7 @@
     "transparency": 0
   },
   {
-    "value": "N40",
+    "value": "12",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -14652,7 +14652,7 @@
     "transparency": 0
   },
   {
-    "value": "M40",
+    "value": "1",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -14685,7 +14685,7 @@
     "transparency": 0
   },
   {
-    "value": "L40",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -14718,13 +14718,13 @@
     "transparency": 0
   },
   {
-    "value": "G42",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       10857.85714285737,
-      9974.999999999765,
+      9974.999999999773,
       0.0
     ],
     "width_factor": 0.9,
@@ -14751,13 +14751,13 @@
     "transparency": 0
   },
   {
-    "value": "I42",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       13935.00000000023,
-      9974.999999999765,
+      9974.999999999773,
       0.0
     ],
     "width_factor": 0.9,
@@ -14784,7 +14784,7 @@
     "transparency": 0
   },
   {
-    "value": "I43",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -14817,13 +14817,13 @@
     "transparency": 0
   },
   {
-    "value": "J42",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       15396.4285714288,
-      9974.999999999765,
+      9974.999999999773,
       0.0
     ],
     "width_factor": 0.9,
@@ -14850,7 +14850,7 @@
     "transparency": 0
   },
   {
-    "value": "J43",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -14883,7 +14883,7 @@
     "transparency": 0
   },
   {
-    "value": "G43",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -14916,7 +14916,7 @@
     "transparency": 0
   },
   {
-    "value": "O42",
+    "value": "1@50; 10@100; REST@200 to C.L",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -14949,13 +14949,13 @@
     "transparency": 0
   },
   {
-    "value": "H42",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       12345.00000000023,
-      9974.999999999765,
+      9974.999999999773,
       0.0
     ],
     "width_factor": 0.9,
@@ -14982,7 +14982,7 @@
     "transparency": 0
   },
   {
-    "value": "H43",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -15015,13 +15015,13 @@
     "transparency": 0
   },
   {
-    "value": "K42",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       16851.4285714288,
-      9974.999999999765,
+      9974.999999999773,
       0.0
     ],
     "width_factor": 0.9,
@@ -15048,7 +15048,7 @@
     "transparency": 0
   },
   {
-    "value": "K43",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -15081,12 +15081,12 @@
     "transparency": 0
   },
   {
-    "value": "P42",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      33026.42857139749,
+      33026.4285713975,
       9599.999999999765,
       0.0
     ],
@@ -15114,12 +15114,12 @@
     "transparency": 0
   },
   {
-    "value": "B42",
+    "value": "B-20",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      2601.428571428688,
+      2601.428571428689,
       9599.999999999765,
       0.0
     ],
@@ -15147,7 +15147,7 @@
     "transparency": 0
   },
   {
-    "value": "C42",
+    "value": "400",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -15180,7 +15180,7 @@
     "transparency": 0
   },
   {
-    "value": "D42",
+    "value": "600",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -15213,7 +15213,7 @@
     "transparency": 0
   },
   {
-    "value": "E42",
+    "value": "20",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -15246,7 +15246,7 @@
     "transparency": 0
   },
   {
-    "value": "N42",
+    "value": "12",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -15279,7 +15279,7 @@
     "transparency": 0
   },
   {
-    "value": "M42",
+    "value": "1",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -15312,7 +15312,7 @@
     "transparency": 0
   },
   {
-    "value": "L42",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -15345,7 +15345,7 @@
     "transparency": 0
   },
   {
-    "value": "G44",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -15378,7 +15378,7 @@
     "transparency": 0
   },
   {
-    "value": "I44",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -15411,7 +15411,7 @@
     "transparency": 0
   },
   {
-    "value": "I45",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -15444,7 +15444,7 @@
     "transparency": 0
   },
   {
-    "value": "J44",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -15477,7 +15477,7 @@
     "transparency": 0
   },
   {
-    "value": "J45",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -15510,7 +15510,7 @@
     "transparency": 0
   },
   {
-    "value": "G45",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -15543,7 +15543,7 @@
     "transparency": 0
   },
   {
-    "value": "O44",
+    "value": "1@50; 10@100; REST@200 to C.L",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -15576,7 +15576,7 @@
     "transparency": 0
   },
   {
-    "value": "H44",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -15609,7 +15609,7 @@
     "transparency": 0
   },
   {
-    "value": "H45",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -15642,7 +15642,7 @@
     "transparency": 0
   },
   {
-    "value": "K44",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -15675,7 +15675,7 @@
     "transparency": 0
   },
   {
-    "value": "K45",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -15708,12 +15708,12 @@
     "transparency": 0
   },
   {
-    "value": "P44",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      33019.99999996892,
+      33019.99999996893,
       8099.999999999825,
       0.0
     ],
@@ -15741,12 +15741,12 @@
     "transparency": 0
   },
   {
-    "value": "B44",
+    "value": "B-21",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      2595.000000000116,
+      2595.000000000118,
       8099.999999999825,
       0.0
     ],
@@ -15774,7 +15774,7 @@
     "transparency": 0
   },
   {
-    "value": "C44",
+    "value": "400",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -15807,7 +15807,7 @@
     "transparency": 0
   },
   {
-    "value": "D44",
+    "value": "600",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -15840,7 +15840,7 @@
     "transparency": 0
   },
   {
-    "value": "E44",
+    "value": "20",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -15873,7 +15873,7 @@
     "transparency": 0
   },
   {
-    "value": "N44",
+    "value": "12",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -15906,7 +15906,7 @@
     "transparency": 0
   },
   {
-    "value": "M44",
+    "value": "1",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -15939,7 +15939,7 @@
     "transparency": 0
   },
   {
-    "value": "L44",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -15972,7 +15972,7 @@
     "transparency": 0
   },
   {
-    "value": "G46",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -16005,7 +16005,7 @@
     "transparency": 0
   },
   {
-    "value": "I46",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -16038,13 +16038,13 @@
     "transparency": 0
   },
   {
-    "value": "I47",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       13935.00000000023,
-      6224.999999999884,
+      6224.999999999883,
       0.0
     ],
     "width_factor": 0.9,
@@ -16053,7 +16053,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       14250.00000000023,
-      6374.999999999883,
+      6374.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -16071,7 +16071,7 @@
     "transparency": 0
   },
   {
-    "value": "J46",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -16104,13 +16104,13 @@
     "transparency": 0
   },
   {
-    "value": "J47",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       15396.4285714288,
-      6224.999999999884,
+      6224.999999999883,
       0.0
     ],
     "width_factor": 0.9,
@@ -16119,7 +16119,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       15750.00000000023,
-      6374.999999999883,
+      6374.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -16137,13 +16137,13 @@
     "transparency": 0
   },
   {
-    "value": "G47",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       10857.85714285737,
-      6224.999999999884,
+      6224.999999999883,
       0.0
     ],
     "width_factor": 0.9,
@@ -16152,7 +16152,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       11250.00000000023,
-      6374.999999999883,
+      6374.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -16170,7 +16170,7 @@
     "transparency": 0
   },
   {
-    "value": "O46",
+    "value": "1@50; 10@100; REST@200 to C.L",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -16203,7 +16203,7 @@
     "transparency": 0
   },
   {
-    "value": "H46",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -16236,13 +16236,13 @@
     "transparency": 0
   },
   {
-    "value": "H47",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       12345.00000000023,
-      6224.999999999884,
+      6224.999999999883,
       0.0
     ],
     "width_factor": 0.9,
@@ -16251,7 +16251,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       12750.00000000023,
-      6374.999999999883,
+      6374.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -16269,7 +16269,7 @@
     "transparency": 0
   },
   {
-    "value": "K46",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -16302,13 +16302,13 @@
     "transparency": 0
   },
   {
-    "value": "K47",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       16851.4285714288,
-      6224.999999999884,
+      6224.999999999883,
       0.0
     ],
     "width_factor": 0.9,
@@ -16317,7 +16317,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       17250.00000000023,
-      6374.999999999883,
+      6374.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -16335,12 +16335,12 @@
     "transparency": 0
   },
   {
-    "value": "P46",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      33026.42857139749,
+      33026.4285713975,
       6599.999999999884,
       0.0
     ],
@@ -16368,12 +16368,12 @@
     "transparency": 0
   },
   {
-    "value": "B46",
+    "value": "B-22",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      2601.428571428688,
+      2601.428571428689,
       6599.999999999884,
       0.0
     ],
@@ -16401,7 +16401,7 @@
     "transparency": 0
   },
   {
-    "value": "C46",
+    "value": "400",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -16434,7 +16434,7 @@
     "transparency": 0
   },
   {
-    "value": "D46",
+    "value": "600",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -16467,7 +16467,7 @@
     "transparency": 0
   },
   {
-    "value": "E46",
+    "value": "20",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -16500,7 +16500,7 @@
     "transparency": 0
   },
   {
-    "value": "N46",
+    "value": "12",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -16533,7 +16533,7 @@
     "transparency": 0
   },
   {
-    "value": "M46",
+    "value": "1",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -16566,7 +16566,7 @@
     "transparency": 0
   },
   {
-    "value": "L46",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -16599,13 +16599,13 @@
     "transparency": 0
   },
   {
-    "value": "G48",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       10857.85714285737,
-      5474.999999999884,
+      5474.999999999883,
       0.0
     ],
     "width_factor": 0.9,
@@ -16614,7 +16614,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       11250.00000000023,
-      5624.999999999883,
+      5624.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -16632,13 +16632,13 @@
     "transparency": 0
   },
   {
-    "value": "I48",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       13935.00000000023,
-      5474.999999999884,
+      5474.999999999883,
       0.0
     ],
     "width_factor": 0.9,
@@ -16647,7 +16647,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       14250.00000000023,
-      5624.999999999883,
+      5624.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -16665,7 +16665,7 @@
     "transparency": 0
   },
   {
-    "value": "I49",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -16680,7 +16680,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       14250.00000000023,
-      4874.999999999883,
+      4874.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -16698,13 +16698,13 @@
     "transparency": 0
   },
   {
-    "value": "J48",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       15396.4285714288,
-      5474.999999999884,
+      5474.999999999883,
       0.0
     ],
     "width_factor": 0.9,
@@ -16713,7 +16713,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       15750.00000000023,
-      5624.999999999883,
+      5624.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -16731,7 +16731,7 @@
     "transparency": 0
   },
   {
-    "value": "J49",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -16746,7 +16746,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       15750.00000000023,
-      4874.999999999883,
+      4874.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -16764,7 +16764,7 @@
     "transparency": 0
   },
   {
-    "value": "G49",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -16779,7 +16779,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       11250.00000000023,
-      4874.999999999883,
+      4874.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -16797,13 +16797,13 @@
     "transparency": 0
   },
   {
-    "value": "O48",
+    "value": "1@50; 10@100; REST@200 to C.L",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       27101.4285714288,
-      5099.999999999884,
+      5099.999999999883,
       0.0
     ],
     "width_factor": 0.9,
@@ -16812,7 +16812,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       27500.00000000023,
-      5249.999999999883,
+      5249.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -16830,13 +16830,13 @@
     "transparency": 0
   },
   {
-    "value": "H48",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       12345.00000000023,
-      5474.999999999884,
+      5474.999999999883,
       0.0
     ],
     "width_factor": 0.9,
@@ -16845,7 +16845,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       12750.00000000023,
-      5624.999999999883,
+      5624.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -16863,7 +16863,7 @@
     "transparency": 0
   },
   {
-    "value": "H49",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -16878,7 +16878,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       12750.00000000023,
-      4874.999999999883,
+      4874.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -16896,13 +16896,13 @@
     "transparency": 0
   },
   {
-    "value": "K48",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       16851.4285714288,
-      5474.999999999884,
+      5474.999999999883,
       0.0
     ],
     "width_factor": 0.9,
@@ -16911,7 +16911,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       17250.00000000023,
-      5624.999999999883,
+      5624.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -16929,7 +16929,7 @@
     "transparency": 0
   },
   {
-    "value": "K49",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -16944,7 +16944,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       17250.00000000023,
-      4874.999999999883,
+      4874.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -16962,13 +16962,13 @@
     "transparency": 0
   },
   {
-    "value": "P48",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      33026.42857139749,
-      5099.999999999884,
+      33026.4285713975,
+      5099.999999999883,
       0.0
     ],
     "width_factor": 0.9,
@@ -16977,7 +16977,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       33424.99999996892,
-      5249.999999999883,
+      5249.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -16995,13 +16995,13 @@
     "transparency": 0
   },
   {
-    "value": "B48",
+    "value": "B-23",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      2601.428571428688,
-      5099.999999999884,
+      2601.428571428689,
+      5099.999999999883,
       0.0
     ],
     "width_factor": 0.9,
@@ -17010,7 +17010,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       3000.000000000117,
-      5249.999999999883,
+      5249.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -17028,13 +17028,13 @@
     "transparency": 0
   },
   {
-    "value": "C48",
+    "value": "400",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       5107.857142857376,
-      5099.999999999884,
+      5099.999999999883,
       0.0
     ],
     "width_factor": 0.9,
@@ -17043,7 +17043,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       5500.000000000233,
-      5249.999999999883,
+      5249.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -17061,13 +17061,13 @@
     "transparency": 0
   },
   {
-    "value": "D48",
+    "value": "600",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       7101.428571428805,
-      5099.999999999884,
+      5099.999999999883,
       0.0
     ],
     "width_factor": 0.9,
@@ -17076,7 +17076,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       7500.000000000233,
-      5249.999999999883,
+      5249.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -17094,13 +17094,13 @@
     "transparency": 0
   },
   {
-    "value": "E48",
+    "value": "20",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       8739.285714285947,
-      5099.999999999884,
+      5099.999999999883,
       0.0
     ],
     "width_factor": 0.9,
@@ -17109,7 +17109,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       9125.000000000233,
-      5249.999999999883,
+      5249.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -17127,13 +17127,13 @@
     "transparency": 0
   },
   {
-    "value": "N48",
+    "value": "12",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       21595.00000000023,
-      5099.999999999884,
+      5099.999999999883,
       0.0
     ],
     "width_factor": 0.9,
@@ -17142,7 +17142,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       22000.00000000023,
-      5249.999999999883,
+      5249.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -17160,13 +17160,13 @@
     "transparency": 0
   },
   {
-    "value": "M48",
+    "value": "1",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       19832.14285714309,
-      5099.999999999884,
+      5099.999999999883,
       0.0
     ],
     "width_factor": 0.9,
@@ -17175,7 +17175,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       20250.00000000023,
-      5249.999999999883,
+      5249.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -17193,13 +17193,13 @@
     "transparency": 0
   },
   {
-    "value": "L48",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       18377.14285714309,
-      5099.999999999884,
+      5099.999999999883,
       0.0
     ],
     "width_factor": 0.9,
@@ -17208,7 +17208,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       18750.00000000023,
-      5249.999999999883,
+      5249.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -17226,13 +17226,13 @@
     "transparency": 0
   },
   {
-    "value": "G50",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       10857.85714285737,
-      3974.999999999884,
+      3974.999999999883,
       0.0
     ],
     "width_factor": 0.9,
@@ -17241,7 +17241,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       11250.00000000023,
-      4124.999999999883,
+      4124.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -17259,13 +17259,13 @@
     "transparency": 0
   },
   {
-    "value": "I50",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       13935.00000000023,
-      3974.999999999884,
+      3974.999999999883,
       0.0
     ],
     "width_factor": 0.9,
@@ -17274,7 +17274,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       14250.00000000023,
-      4124.999999999883,
+      4124.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -17292,7 +17292,7 @@
     "transparency": 0
   },
   {
-    "value": "I21",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -17325,13 +17325,13 @@
     "transparency": 0
   },
   {
-    "value": "J50",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       15396.4285714288,
-      3974.999999999884,
+      3974.999999999883,
       0.0
     ],
     "width_factor": 0.9,
@@ -17340,7 +17340,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       15750.00000000023,
-      4124.999999999883,
+      4124.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -17358,7 +17358,7 @@
     "transparency": 0
   },
   {
-    "value": "J21",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -17391,7 +17391,7 @@
     "transparency": 0
   },
   {
-    "value": "G21",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -17424,7 +17424,7 @@
     "transparency": 0
   },
   {
-    "value": "O50",
+    "value": "1@50; 10@100; REST@200 to C.L",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -17457,13 +17457,13 @@
     "transparency": 0
   },
   {
-    "value": "H50",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       12345.00000000023,
-      3974.999999999884,
+      3974.999999999883,
       0.0
     ],
     "width_factor": 0.9,
@@ -17472,7 +17472,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       12750.00000000023,
-      4124.999999999883,
+      4124.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -17490,7 +17490,7 @@
     "transparency": 0
   },
   {
-    "value": "H21",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -17523,13 +17523,13 @@
     "transparency": 0
   },
   {
-    "value": "K50",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       16851.4285714288,
-      3974.999999999884,
+      3974.999999999883,
       0.0
     ],
     "width_factor": 0.9,
@@ -17538,7 +17538,7 @@
     "oblique_angle": 0.0,
     "align_point": [
       17250.00000000023,
-      4124.999999999883,
+      4124.999999999882,
       0.0
     ],
     "horizontal_align": 1,
@@ -17556,7 +17556,7 @@
     "transparency": 0
   },
   {
-    "value": "K21",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -17589,12 +17589,12 @@
     "transparency": 0
   },
   {
-    "value": "P50",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      33026.42857139749,
+      33026.4285713975,
       3599.999999999884,
       0.0
     ],
@@ -17622,12 +17622,12 @@
     "transparency": 0
   },
   {
-    "value": "B50",
+    "value": "B-24",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      2601.428571428688,
+      2601.428571428689,
       3599.999999999884,
       0.0
     ],
@@ -17655,7 +17655,7 @@
     "transparency": 0
   },
   {
-    "value": "C50",
+    "value": "400",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -17688,7 +17688,7 @@
     "transparency": 0
   },
   {
-    "value": "D50",
+    "value": "600",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -17721,7 +17721,7 @@
     "transparency": 0
   },
   {
-    "value": "E50",
+    "value": "20",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -17754,7 +17754,7 @@
     "transparency": 0
   },
   {
-    "value": "N50",
+    "value": "12",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -17787,7 +17787,7 @@
     "transparency": 0
   },
   {
-    "value": "M50",
+    "value": "1",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -17820,7 +17820,7 @@
     "transparency": 0
   },
   {
-    "value": "L50",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -17853,7 +17853,7 @@
     "transparency": 0
   },
   {
-    "value": "G52",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -17886,7 +17886,7 @@
     "transparency": 0
   },
   {
-    "value": "I52",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -17919,7 +17919,7 @@
     "transparency": 0
   },
   {
-    "value": "I53",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -17952,7 +17952,7 @@
     "transparency": 0
   },
   {
-    "value": "J52",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -17985,7 +17985,7 @@
     "transparency": 0
   },
   {
-    "value": "J53",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -18018,7 +18018,7 @@
     "transparency": 0
   },
   {
-    "value": "G53",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -18051,7 +18051,7 @@
     "transparency": 0
   },
   {
-    "value": "O52",
+    "value": "1@50; 10@100; REST@200 to C.L",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -18084,7 +18084,7 @@
     "transparency": 0
   },
   {
-    "value": "H52",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -18117,7 +18117,7 @@
     "transparency": 0
   },
   {
-    "value": "H53",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -18150,7 +18150,7 @@
     "transparency": 0
   },
   {
-    "value": "K52",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -18183,7 +18183,7 @@
     "transparency": 0
   },
   {
-    "value": "K53",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -18216,12 +18216,12 @@
     "transparency": 0
   },
   {
-    "value": "P52",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      33026.42857139749,
+      33026.4285713975,
       2099.999999999767,
       0.0
     ],
@@ -18249,12 +18249,12 @@
     "transparency": 0
   },
   {
-    "value": "B52",
+    "value": "B-25",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      2601.428571428688,
+      2601.428571428689,
       2099.999999999767,
       0.0
     ],
@@ -18282,7 +18282,7 @@
     "transparency": 0
   },
   {
-    "value": "C52",
+    "value": "400",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -18315,7 +18315,7 @@
     "transparency": 0
   },
   {
-    "value": "D52",
+    "value": "600",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -18348,7 +18348,7 @@
     "transparency": 0
   },
   {
-    "value": "E52",
+    "value": "20",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -18381,7 +18381,7 @@
     "transparency": 0
   },
   {
-    "value": "N52",
+    "value": "12",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -18414,7 +18414,7 @@
     "transparency": 0
   },
   {
-    "value": "M52",
+    "value": "1",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -18447,7 +18447,7 @@
     "transparency": 0
   },
   {
-    "value": "L52",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -18480,13 +18480,13 @@
     "transparency": 0
   },
   {
-    "value": "G54",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       10851.4285714288,
-      974.999999999767,
+      974.9999999997669,
       0.0
     ],
     "width_factor": 0.9,
@@ -18513,13 +18513,13 @@
     "transparency": 0
   },
   {
-    "value": "I54",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       13928.57142857166,
-      974.999999999767,
+      974.9999999997669,
       0.0
     ],
     "width_factor": 0.9,
@@ -18546,7 +18546,7 @@
     "transparency": 0
   },
   {
-    "value": "I55",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -18579,13 +18579,13 @@
     "transparency": 0
   },
   {
-    "value": "J54",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       15390.00000000023,
-      974.999999999767,
+      974.9999999997669,
       0.0
     ],
     "width_factor": 0.9,
@@ -18612,7 +18612,7 @@
     "transparency": 0
   },
   {
-    "value": "J55",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -18645,7 +18645,7 @@
     "transparency": 0
   },
   {
-    "value": "G55",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -18678,7 +18678,7 @@
     "transparency": 0
   },
   {
-    "value": "O54",
+    "value": "1@50; 10@100; REST@200 to C.L",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -18711,13 +18711,13 @@
     "transparency": 0
   },
   {
-    "value": "H54",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       12338.57142857166,
-      974.999999999767,
+      974.9999999997669,
       0.0
     ],
     "width_factor": 0.9,
@@ -18744,7 +18744,7 @@
     "transparency": 0
   },
   {
-    "value": "H55",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -18777,13 +18777,13 @@
     "transparency": 0
   },
   {
-    "value": "K54",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
       16845.00000000023,
-      974.999999999767,
+      974.9999999997669,
       0.0
     ],
     "width_factor": 0.9,
@@ -18810,7 +18810,7 @@
     "transparency": 0
   },
   {
-    "value": "K55",
+    "value": "4",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -18843,12 +18843,12 @@
     "transparency": 0
   },
   {
-    "value": "P54",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      33019.99999996892,
+      33019.99999996893,
       599.9999999997672,
       0.0
     ],
@@ -18876,12 +18876,12 @@
     "transparency": 0
   },
   {
-    "value": "B54",
+    "value": "B-26",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
     "position": [
-      2595.000000000116,
+      2595.000000000118,
       599.9999999997672,
       0.0
     ],
@@ -18909,7 +18909,7 @@
     "transparency": 0
   },
   {
-    "value": "C54",
+    "value": "400",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -18942,7 +18942,7 @@
     "transparency": 0
   },
   {
-    "value": "D54",
+    "value": "600",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -18975,7 +18975,7 @@
     "transparency": 0
   },
   {
-    "value": "E54",
+    "value": "20",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -19008,7 +19008,7 @@
     "transparency": 0
   },
   {
-    "value": "N54",
+    "value": "12",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -19041,7 +19041,7 @@
     "transparency": 0
   },
   {
-    "value": "M54",
+    "value": "1",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,
@@ -19074,7 +19074,7 @@
     "transparency": 0
   },
   {
-    "value": "L54",
+    "value": "-",
     "layer": "3G",
     "style": "ROMANS",
     "height": 300.0,

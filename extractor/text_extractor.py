@@ -76,8 +76,12 @@ class TextExtractor:
                     except (ValueError, TypeError):
                         ltscale = 1.0
                 
+                text_value = str(entity.dxf.text).strip()
+                if not text_value:
+                    continue
+
                 text_data = {
-                    "value": str(entity.dxf.text),
+                    "value": text_value,
                     "layer": str(entity.dxf.layer),
                     "style": str(entity.dxf.style) if hasattr(entity.dxf, 'style') else "Standard",
                     "height": float(entity.dxf.height),

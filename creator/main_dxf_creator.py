@@ -5,7 +5,7 @@ import ezdxf
 from .config_loader import ConfigLoader
 from .layer_creator import LayerCreator
 from .style_creator import StyleCreator
-from .text_creator import TextEntityCreator
+from .text_creator import TextCreator
 from .line_creator import LineCreator
 from constants import LAYERS_JSON, STYLES_JSON, LINES_JSON, TEXTS_JSON, DEFAULT_DWG_VERSION
 
@@ -49,7 +49,7 @@ class Dxf_Creator:
         style_creator.create_styles(self.config_loader.get_text_styles())
         
         # Create text entities
-        text_creator = TextEntityCreator(self.doc)
+        text_creator = TextCreator(self.doc)
         text_creator.create_texts(self.config_loader.get_texts())
         
         # Create line entities (if any)
