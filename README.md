@@ -4,6 +4,11 @@ A Python tool that populates a DXF table drawing with data from an Excel spreads
 
 ---
 
+## Overview
+
+Native Excel-to-DXF/DWG export lacks layer support and ignores any existing drawing template. Manually editing a CAD template with spreadsheet data is tedious and prone to error.
+This tool bridges the two — it reads your existing DXF template and populates it with values from Excel, preserving layers, styles, and geometry without any manual intervention.
+
 ## How to Use
 
 Place both input files in the project root, then run:
