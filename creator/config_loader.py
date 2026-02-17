@@ -3,24 +3,17 @@ Configuration loader for reading separate JSON config files
 """
 import json
 from typing import Dict, List, Any
+from constants import LAYERS_JSON, STYLES_JSON, LINES_JSON, TEXTS_JSON
 
 
 class ConfigLoader:
     """Handles loading and validation of separate JSON configuration files"""
     
-    def __init__(self, layers_path: str = 'layers.json', 
-                 styles_path: str = 'styles.json',
-                 lines_path: str = 'lines.json',
-                 texts_path: str = 'texts.json'):
-        """
-        Initialize config loader with separate file paths
-        
-        Args:
-            layers_path: Path to layers JSON file
-            styles_path: Path to styles JSON file  
-            lines_path: Path to lines JSON file
-            texts_path: Path to texts JSON file
-        """
+    def __init__(self, layers_path: str = LAYERS_JSON, 
+                 styles_path: str = STYLES_JSON,
+                 lines_path: str = LINES_JSON,
+                 texts_path: str = TEXTS_JSON):
+       
         self.layers_path = layers_path
         self.styles_path = styles_path
         self.lines_path = lines_path

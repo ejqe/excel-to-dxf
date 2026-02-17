@@ -3,10 +3,10 @@ Text entity creation for AutoCAD drawings
 """
 import ezdxf
 from typing import Dict, Any
-from .constants import COLOR_MAP
+from constants import COLOR_MAP
 
 
-class TextEntityCreator:
+class TextCreator:
     """Handles creation of AutoCAD text entities"""
     
     def __init__(self, doc: ezdxf.document.Drawing):

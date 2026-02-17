@@ -3,7 +3,7 @@ Layer creation and management for AutoCAD drawings
 """
 import ezdxf
 from typing import Dict, Any
-from .constants import COLOR_MAP
+from constants import COLOR_MAP
 
 
 class LayerCreator:

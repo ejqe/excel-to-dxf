@@ -5,25 +5,31 @@ import ezdxf
 import json
 from typing import Dict, List
 from .layer_extractor import LayerExtractor
-from .text_style_extractor import TextStyleExtractor
+from .style_extractor import TextStyleExtractor
 from .line_extractor import LineExtractor
 from .text_extractor import TextExtractor
+from constants import LAYERS_JSON, STYLES_JSON, LINES_JSON, TEXTS_JSON
 
 
-class ExtractionBuilder:
+class DxfExtractor:
     """Main class for extracting entities from DXF files"""
     
-    def __init__(self, dxf_file: str):
-        """
-        Initialize extraction builder
+    def __init__(self, 
+                 dxf_file: str,
+                 layers_json: str = LAYERS_JSON,
+                 styles_json: str = STYLES_JSON,
+                 lines_json: str = LINES_JSON,
+                 texts_json: str = TEXTS_JSON
+                 ):
         
-        Args:
-            dxf_file: Path to input DXF file
-        """
         self.dxf_file = dxf_file
         self.doc = None
         self.data = None
-    
+        self.layers_json = layers_json
+        self.styles_json = styles_json
+        self.lines_json = lines_json
+        self.texts_json = texts_json
+        
     def load(self):
         """Load the DXF file"""
         self.doc = ezdxf.readfile(self.dxf_file)
@@ -67,21 +73,21 @@ class ExtractionBuilder:
         """Save extracted data to JSON files"""
         if self.data is None:
             raise ValueError("No data to save. Call extract() first.")
-        
+       
         # Save layers
-        with open('layers.json', 'w') as f:
+        with open(self.layers_json, 'w') as f:
             json.dump(self.data['layers'], f, indent=2)
         
         # Save styles
-        with open('styles.json', 'w') as f:
+        with open(self.styles_json, 'w') as f:
             json.dump(self.data['styles'], f, indent=2)
         
         # Save lines
-        with open('lines.json', 'w') as f:
+        with open(self.lines_json, 'w') as f:
             json.dump(self.data['lines'], f, indent=2)
         
         # Save texts
-        with open('texts.json', 'w') as f:
+        with open(self.texts_json, 'w') as f:
             json.dump(self.data['texts'], f, indent=2)
     
     def extract_and_save(self):

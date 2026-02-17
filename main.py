@@ -1,33 +1,36 @@
-"""
-Combined DXF extract + create pipeline
-"""
 
-from extractor import ExtractionBuilder
-from creator import DrawingBuilder, ConfigLoader
+from extractor import DxfExtractor
+from creator import Dxf_Creator, ConfigLoader
+from constants import INPUT_DXF, OUTPUT_DXF, LAYERS_JSON, STYLES_JSON, LINES_JSON, TEXTS_JSON, DEFAULT_DWG_VERSION, DATA_DIR
 
 
 def main():
-    input_file = "input.dxf"
-    output_file = "output.dxf"
-
+    
     try:
         # =========================
         # EXTRACT
         # =========================
-        print("Loading input.dxf...")
-        builder = ExtractionBuilder(input_file)
-        builder.load()
+        print("\nLoading input.dxf...")
+        dxf_extractor = DxfExtractor(
+            INPUT_DXF,
+            LAYERS_JSON,
+            STYLES_JSON, 
+            LINES_JSON,
+            TEXTS_JSON
+            )
+        dxf_extractor.load()
 
         print("Extracting dxf...\n")
-        data = builder.extract()
-        builder.save()
+        data = dxf_extractor.extract()
+        dxf_extractor.save()
+
+        print("✓ SUCCESS! Extraction complete")
+        print(f"Saved at {DATA_DIR}\n")
 
         layer_count = len(data["layers"])
         style_count = len(data["styles"])
         line_count = len(data["lines"])
         text_count = len(data["texts"])
-
-        print("✓ SUCCESS! Extraction complete\n")
 
         print("Extracted entities:")
         print(f"  {layer_count} layer(s)")
@@ -35,33 +38,43 @@ def main():
         print(f"  {line_count} line(s)")
         print(f"  {text_count} text(s)\n")
 
+
+        # =========================
+        # MODIFY
+        # =========================
+
+        # WIP - Excel to JSON modification logic would go here (not implemented yet)
+
+
+
         # =========================
         # CREATE
         # =========================
         print("Creating dxf...\n")
 
         config_loader = ConfigLoader(
-            "layers.json",
-            "styles.json",
-            "lines.json",
-            "texts.json"
-        )
+            LAYERS_JSON,
+            STYLES_JSON,
+            LINES_JSON,
+            TEXTS_JSON
+            )
         config_loader.load()
 
-        drawing_builder = DrawingBuilder(
-            "layers.json",
-            "styles.json",
-            "lines.json",
-            "texts.json",
-            dwg_version="R2018"
-        )
-        drawing_builder.build()
-        drawing_builder.save(output_file)
+        dxf_creator = Dxf_Creator(
+            LAYERS_JSON,
+            STYLES_JSON,
+            LINES_JSON,
+            TEXTS_JSON,
+            DEFAULT_DWG_VERSION
+            )
+        dxf_creator.build()
+        dxf_creator.save(OUTPUT_DXF)
 
-        print(f"✓ SUCCESS! Created {output_file}\n")
+        print("✓ SUCCESS! Creation complete")
+        print(f"Saved at {OUTPUT_DXF}\n")
 
     except FileNotFoundError:
-        print(f"✗ ERROR: File '{input_file}' not found")
+        print(f"✗ ERROR: File '{INPUT_DXF}' not found")
     except Exception as e:
         print(f"✗ ERROR: {e}")
 

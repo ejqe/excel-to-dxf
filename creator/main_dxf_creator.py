@@ -2,33 +2,25 @@
 Main drawing builder that orchestrates the creation of AutoCAD drawings
 """
 import ezdxf
-from .constants import DEFAULT_DWG_VERSION
 from .config_loader import ConfigLoader
 from .layer_creator import LayerCreator
-from .text_style_creator import TextStyleCreator
-from .text_entity_creator import TextEntityCreator
+from .style_creator import StyleCreator
+from .text_creator import TextEntityCreator
 from .line_creator import LineCreator
+from constants import LAYERS_JSON, STYLES_JSON, LINES_JSON, TEXTS_JSON, DEFAULT_DWG_VERSION
 
 
-class DrawingBuilder:
+class Dxf_Creator:
     """Main class for building AutoCAD drawings from configuration"""
-    
+
     def __init__(self, 
-                 layers_path: str = 'layers.json',
-                 styles_path: str = 'styles.json',
-                 lines_path: str = 'lines.json',
-                 texts_path: str = 'texts.json',
-                 dwg_version: str = DEFAULT_DWG_VERSION):
-        """
-        Initialize drawing builder with separate config files
-        
-        Args:
-            layers_path: Path to layers JSON file
-            styles_path: Path to styles JSON file
-            lines_path: Path to lines JSON file
-            texts_path: Path to texts JSON file
-            dwg_version: AutoCAD version format (default: R2018)
-        """
+                 layers_path: str = LAYERS_JSON,
+                 styles_path: str = STYLES_JSON,
+                 lines_path: str = LINES_JSON,
+                 texts_path: str = TEXTS_JSON,
+                 dwg_version: str = DEFAULT_DWG_VERSION
+                 ):
+      
         self.config_loader = ConfigLoader(layers_path, styles_path, lines_path, texts_path)
         self.dwg_version = dwg_version
         self.doc = None
@@ -53,7 +45,7 @@ class DrawingBuilder:
         layer_creator.create_layers(self.config_loader.get_layers())
         
         # Create text styles
-        style_creator = TextStyleCreator(self.doc)
+        style_creator = StyleCreator(self.doc)
         style_creator.create_styles(self.config_loader.get_text_styles())
         
         # Create text entities

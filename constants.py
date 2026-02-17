@@ -1,6 +1,4 @@
-"""
-Constants and mappings for AutoCAD DWG/DXF files
-"""
+from pathlib import Path
 
 # AutoCAD Color Index (ACI) mapping
 COLOR_MAP = {
@@ -25,3 +23,16 @@ COMMON_FONTS = [
     'simplex.shx',
     'standard.shx'
 ]
+
+
+BASE_DIR = Path(__file__).resolve().parent
+DATA_DIR = BASE_DIR / "data"
+DATA_DIR.mkdir(exist_ok=True)
+
+LAYERS_JSON = DATA_DIR / "layers.json"
+STYLES_JSON = DATA_DIR / "styles.json"
+LINES_JSON = DATA_DIR / "lines.json"
+TEXTS_JSON = DATA_DIR / "texts.json"
+
+INPUT_DXF = BASE_DIR / "input.dxf"
+OUTPUT_DXF = BASE_DIR / "output.dxf"

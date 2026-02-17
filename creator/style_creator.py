@@ -5,7 +5,7 @@ import ezdxf
 from typing import Dict, Any
 
 
-class TextStyleCreator:
+class StyleCreator:
     """Handles creation of AutoCAD text styles"""
     
     def __init__(self, doc: ezdxf.document.Drawing):
