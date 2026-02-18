@@ -52,6 +52,7 @@ class TextValueReplacer:
         Cells with no value are skipped.
         """
         if not self.excel_path.exists():
+            print(f"✘ ERROR: Excel file not found: {self.excel_path}")
             raise FileNotFoundError(f"Excel file not found: {self.excel_path}")
 
         wb = openpyxl.load_workbook(self.excel_path, data_only=True)

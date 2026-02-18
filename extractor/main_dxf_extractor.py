@@ -32,6 +32,10 @@ class DxfExtractor:
         
     def load(self):
         """Load the DXF file"""
+        from pathlib import Path
+        if not Path(self.dxf_file).exists():
+            print(f"\u2718 ERROR: DXF file not found: {self.dxf_file}")
+            raise FileNotFoundError(f"DXF file not found: {self.dxf_file}")
         self.doc = ezdxf.readfile(self.dxf_file)
     
     def extract(self) -> Dict[str, List]:

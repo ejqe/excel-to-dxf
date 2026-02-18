@@ -1,4 +1,3 @@
-
 import sys
 from constants import OUTPUT_DXF, DATA_DIR
 from extractor import DxfExtractor
@@ -11,10 +10,10 @@ def main():
     if len(sys.argv) != 3:
         print("Usage: py main.py <input.dxf> <input.xlsx>")
         sys.exit(1)
-        
-    INPUT_DXF = sys.argv[1]
+
+    INPUT_DXF  = sys.argv[1]
     INPUT_XLSX = sys.argv[2]
-    
+
     try:
         # =========================
         # EXTRACT
@@ -27,13 +26,13 @@ def main():
         data = dxf_extractor.extract()
         dxf_extractor.save()
 
-        print("✓ SUCCESS! Extraction complete")
+        print("✔ SUCCESS! Extraction complete")
         print(f"Saved at {DATA_DIR}\n")
 
         layer_count = len(data["layers"])
         style_count = len(data["styles"])
-        line_count = len(data["lines"])
-        text_count = len(data["texts"])
+        line_count  = len(data["lines"])
+        text_count  = len(data["texts"])
 
         print("Extracted entities:")
         print(f"  {layer_count} layer(s)")
@@ -41,6 +40,11 @@ def main():
         print(f"  {line_count} line(s)")
         print(f"  {text_count} text(s)\n")
 
+    except Exception as e:
+        print(f"✘ ERROR during extraction: {e}")
+        sys.exit(1)
+
+    try:
         # =========================
         # MODIFY
         # =========================
@@ -49,6 +53,11 @@ def main():
         replacer = TextValueReplacer(excel_path=INPUT_XLSX)
         replacer.run()
 
+    except Exception as e:
+        print(f"✘ ERROR during modification: {e}")
+        sys.exit(1)
+
+    try:
         # =========================
         # CREATE
         # =========================
@@ -61,13 +70,12 @@ def main():
         dxf_creator.build()
         dxf_creator.save(OUTPUT_DXF)
 
-        print("✓ SUCCESS! Creation complete")
+        print("✔ SUCCESS! Creation complete")
         print(f"Saved at {OUTPUT_DXF}\n")
 
-    except FileNotFoundError:
-        print(f"✗ ERROR: File '{INPUT_DXF}' not found")
     except Exception as e:
-        print(f"✗ ERROR: {e}")
+        print(f"✘ ERROR during creation: {e}")
+        sys.exit(1)
 
 
 if __name__ == "__main__":
