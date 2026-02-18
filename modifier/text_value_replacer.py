@@ -1,10 +1,12 @@
 import json
 import logging
+from pathlib import Path
 from typing import Any
 import openpyxl
-from constants import TEXTS_JSON, INPUT_XLXS
+from constants import TEXTS_JSON
 
 logger = logging.getLogger(__name__)
+
 
 class TextValueReplacer:
     """
@@ -14,11 +16,11 @@ class TextValueReplacer:
 
     def __init__(
         self,
-        excel_path: str = INPUT_XLXS,
-        json_path:  str = TEXTS_JSON
+        excel_path: str | Path,
+        json_path:  str | Path = TEXTS_JSON
     ) -> None:
-        self.excel_path = excel_path
-        self.json_path  = json_path
+        self.excel_path = Path(excel_path)  # ensure Path object
+        self.json_path  = Path(json_path)   # ensure Path object
 
     # ── public ─────────────────────────────────────────────────────────────────
 
@@ -31,9 +33,9 @@ class TextValueReplacer:
           4. Write the updated JSON back to disk.
           5. Return the updated list.
         """
-        mapping   = self._build_mapping()
-        texts     = self._load_json()
-        updated   = self._apply_mapping(texts, mapping)
+        mapping = self._build_mapping()
+        texts   = self._load_json()
+        updated = self._apply_mapping(texts, mapping)
         self._save_json(updated)
         return updated
 
@@ -123,29 +125,3 @@ class TextValueReplacer:
         with self.json_path.open("w", encoding="utf-8") as fh:
             json.dump(texts, fh, indent=2, ensure_ascii=False)
         logger.info("Updated JSON written to %s", self.json_path)
-
-
-# ── CLI entry point ────────────────────────────────────────────────────────────
-
-def main() -> None:
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(levelname)s  %(message)s",
-    )
-
-    replacer = TextValueReplacer()
-
-    try:
-        updated = replacer.run()
-    except FileNotFoundError as exc:
-        logger.error(exc)
-        raise SystemExit(1)
-
-    print(f"\nDone — {len(updated)} text entities processed.")
-    print("Updated values:")
-    for entry in updated:
-        print(f"  {entry['value']!r}  (layer: {entry.get('layer', '?')})")
-
-
-if __name__ == "__main__":
-    main()

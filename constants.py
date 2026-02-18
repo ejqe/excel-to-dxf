@@ -34,7 +34,6 @@ STYLES_JSON = DATA_DIR / "styles.json"
 LINES_JSON = DATA_DIR / "lines.json"
 TEXTS_JSON = DATA_DIR / "texts.json"
 
-INPUT_DXF = BASE_DIR / "input.dxf"
 OUTPUT_DXF = BASE_DIR / "output.dxf"
 
-INPUT_XLXS = BASE_DIR / "input.xlsx"
+

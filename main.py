@@ -1,24 +1,26 @@
 
+import sys
+from constants import OUTPUT_DXF, DATA_DIR
 from extractor import DxfExtractor
 from creator import Dxf_Creator, ConfigLoader
-from constants import INPUT_DXF, INPUT_XLXS, OUTPUT_DXF, LAYERS_JSON, STYLES_JSON, LINES_JSON, TEXTS_JSON, DEFAULT_DWG_VERSION, DATA_DIR
 from modifier.text_value_replacer import TextValueReplacer
 
 
 def main():
+
+    if len(sys.argv) != 3:
+        print("Usage: py main.py <input.dxf> <input.xlsx>")
+        sys.exit(1)
+        
+    INPUT_DXF = sys.argv[1]
+    INPUT_XLSX = sys.argv[2]
     
     try:
         # =========================
         # EXTRACT
         # =========================
         print("\nLoading input.dxf...")
-        dxf_extractor = DxfExtractor(
-            INPUT_DXF,
-            LAYERS_JSON,
-            STYLES_JSON, 
-            LINES_JSON,
-            TEXTS_JSON
-        )
+        dxf_extractor = DxfExtractor(dxf_file=INPUT_DXF)
         dxf_extractor.load()
 
         print("Extracting dxf...\n")
@@ -44,10 +46,7 @@ def main():
         # =========================
         print("Modifying text values...\n")
 
-        replacer = TextValueReplacer(
-            INPUT_XLXS,
-            TEXTS_JSON
-        )
+        replacer = TextValueReplacer(excel_path=INPUT_XLSX)
         replacer.run()
 
         # =========================
@@ -55,21 +54,10 @@ def main():
         # =========================
         print("Creating dxf...\n")
 
-        config_loader = ConfigLoader(
-            LAYERS_JSON,
-            STYLES_JSON,
-            LINES_JSON,
-            TEXTS_JSON
-        )
+        config_loader = ConfigLoader()
         config_loader.load()
 
-        dxf_creator = Dxf_Creator(
-            LAYERS_JSON,
-            STYLES_JSON,
-            LINES_JSON,
-            TEXTS_JSON,
-            DEFAULT_DWG_VERSION
-        )
+        dxf_creator = Dxf_Creator()
         dxf_creator.build()
         dxf_creator.save(OUTPUT_DXF)
 
